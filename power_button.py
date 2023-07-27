@@ -12,7 +12,8 @@ Button.pressed_time = None
 
 def released():
     global held_for
-    if (held_for > 3.0):
+    # Temps augmenté à 4 s (initialement 3s) par jojo
+    if (held_for > 4.0):
         print("Shuting down...")
         os.system("shutdown now -h")
     else:
@@ -38,6 +39,7 @@ def held():
 button = Button(use_button, hold_time=1.0, hold_repeat=True)
 button.when_held = held
 button.when_released = released
-button.when_pressed = pressed
+# Désactivé par jojo pour ne pas faire reset en cas de double clic sur le bouton
+# button.when_pressed = pressed
 
 pause()
