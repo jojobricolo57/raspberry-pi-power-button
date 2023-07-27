@@ -1,7 +1,7 @@
 #!/bin/bash
 
-curl -O https://raw.githubusercontent.com/fire1ce/raspberry-pi-power-button/main/power_button.py
-curl -O https://raw.githubusercontent.com/fire1ce/raspberry-pi-power-button/main/power_button.service
+curl -O https://raw.githubusercontent.com/jojobricolo57/raspberry-pi-power-button/main/power_button.py
+curl -O https://raw.githubusercontent.com/jojobricolo57/raspberry-pi-power-button/main/power_button.service
 
 if [ ! -d "/usr/local/bin" ]; then
     sudo mkdir -p /usr/local/bin
