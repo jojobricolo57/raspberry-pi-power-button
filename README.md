@@ -2,7 +2,7 @@
 # Raspberry Pi Power Button - Wake/Power Off/Restart(Double Press)
 
 ## Modification (fork) du Github original
-J'ai simplement supprimé le double clic pour faire un reset du Raspberry car je trouvais cela dangereux en cas de fausse manipulation, et j'ai allongé le temps pour l'arret à 4 secondes.
+J'ai simplement supprimé le double clic pour faire un reset du Raspberry car je trouvais cela dangereux en cas de fausse manipulation, et j'ai allongé le temps pour l'arrêt à 4 secondes au lieu de 3.
 
 
 ## Information
